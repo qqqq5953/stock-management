@@ -10,6 +10,7 @@
 import Sidebar from '@/components/SidebarItem.vue';
 import NavbarDashboard from '@/components/NavbarDashboard.vue';
 import Footer from '@/components/FooterItem.vue';
+
 export default {
   components: {
     NavbarDashboard,

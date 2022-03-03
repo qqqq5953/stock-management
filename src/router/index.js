@@ -30,6 +30,11 @@ const routes = [
         path: 'watchlist',
         name: 'Watchlist',
         component: () => import('../views/WatchlistView.vue')
+      },
+      {
+        path: 'add',
+        name: 'Add',
+        component: () => import('../views/AddView.vue')
       }
     ]
   },
