@@ -90,7 +90,6 @@
             >
               Shares
             </th>
-            <slot name="thead-trade"></slot>
           </tr>
         </thead>
         <tbody>

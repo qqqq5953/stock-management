@@ -21,9 +21,6 @@
               px-2
               py-1
               hover:bg-blue-900 hover:text-white
-              hidden
-              md:block
-              lg:hidden
             "
             @click="openModal"
           >
@@ -68,9 +65,6 @@
             <span class="sm:hidden font-semibold mr-2">Price:</span>
             <p class="ml-auto text-right">1,200</p>
           </td>
-        </template>
-        <template #thead-trade>
-          <th class="px-4 py-3 md:hidden lg:block"></th>
         </template>
       </HoldingTable>
       <div>
